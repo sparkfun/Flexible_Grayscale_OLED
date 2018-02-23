@@ -22066,30 +22066,30 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Area: 5.8 mm x 3.35 mm&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=https://cdn.sparkfun.com/assets/d/b/1/f/d/SSD1320_1.0__to_Wisechip_.pdf&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<wire x1="-7.47" y1="-27.65" x2="7.47" y2="-27.65" width="0.0254" layer="51"/>
-<wire x1="7.47" y1="-27.65" x2="7.47" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="-7.47" y1="27.65" x2="-7.47" y2="-27.65" width="0.0254" layer="51"/>
-<wire x1="7.47" y1="27.65" x2="7.47" y2="29.64" width="0.0254" layer="51"/>
-<wire x1="7.47" y1="29.64" x2="7.47" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="7.47" y1="31.64" x2="5.37" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="5.37" y1="31.64" x2="3.27" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="3.27" y1="31.64" x2="1.17" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="1.17" y1="31.64" x2="0.69" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="0.69" y1="31.64" x2="-0.93" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-0.93" y1="31.64" x2="-3.48" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-3.48" y1="31.64" x2="-3.51" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-3.51" y1="31.64" x2="-5.49" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-5.49" y1="31.64" x2="-7.47" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-7.47" y1="31.64" x2="-7.47" y2="29.65" width="0.0254" layer="51"/>
-<text x="0" y="30" size="1.27" layer="51" align="center">Avoid Bending</text>
-<wire x1="-7.47" y1="29.65" x2="-7.47" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="-7.47" y1="27.65" x2="-4.91" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="-4.91" y1="27.65" x2="-2.81" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="-2.81" y1="27.65" x2="-0.71" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="-0.71" y1="27.65" x2="1.39" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="1.39" y1="27.65" x2="3.49" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="3.49" y1="27.65" x2="5.49" y2="27.65" width="0.0254" layer="51"/>
-<wire x1="5.49" y1="27.65" x2="7.47" y2="27.65" width="0.0254" layer="51"/>
+<wire x1="-7.47" y1="103.85" x2="7.47" y2="103.85" width="0.0254" layer="52"/>
+<wire x1="7.47" y1="103.85" x2="7.47" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="-7.47" y1="48.55" x2="-7.47" y2="103.85" width="0.0254" layer="52"/>
+<wire x1="7.47" y1="48.55" x2="7.47" y2="46.56" width="0.0254" layer="52"/>
+<wire x1="7.47" y1="46.56" x2="7.47" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="7.47" y1="44.56" x2="5.37" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="5.37" y1="44.56" x2="3.27" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="3.27" y1="44.56" x2="1.17" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="1.17" y1="44.56" x2="0.69" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="0.69" y1="44.56" x2="-0.93" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-0.93" y1="44.56" x2="-3.48" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-3.48" y1="44.56" x2="-3.51" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-3.51" y1="44.56" x2="-5.49" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-5.49" y1="44.56" x2="-7.47" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-7.47" y1="44.56" x2="-7.47" y2="46.55" width="0.0254" layer="52"/>
+<text x="0" y="46.2" size="1.27" layer="52" rot="MR180" align="center">Avoid Bending</text>
+<wire x1="-7.47" y1="46.55" x2="-7.47" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="-7.47" y1="48.55" x2="-4.91" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="-4.91" y1="48.55" x2="-2.81" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="-2.81" y1="48.55" x2="-0.71" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="-0.71" y1="48.55" x2="1.39" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="1.39" y1="48.55" x2="3.49" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="3.49" y1="48.55" x2="5.49" y2="48.55" width="0.0254" layer="52"/>
+<wire x1="5.49" y1="48.55" x2="7.47" y2="48.55" width="0.0254" layer="52"/>
 <wire x1="2.1" y1="89.64" x2="2.1" y2="47.21" width="0.0254" layer="49"/>
 <wire x1="6.3" y1="47.21" x2="6.3" y2="89.64" width="0.0254" layer="49"/>
 <wire x1="6.3" y1="89.64" x2="2.1" y2="89.64" width="0.0254" layer="49"/>
@@ -22100,29 +22100,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.1" y1="-13.21" x2="2.1" y2="29.22" width="0.0254" layer="52"/>
 <wire x1="6.3" y1="29.22" x2="6.3" y2="-13.21" width="0.0254" layer="52"/>
 <wire x1="6.3" y1="-13.21" x2="2.1" y2="-13.21" width="0.0254" layer="52"/>
-<wire x1="-3.51" y1="38.215" x2="-3.51" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="0.69" y1="38.215" x2="0.69" y2="31.64" width="0.0254" layer="51"/>
+<wire x1="-3.51" y1="37.985" x2="-3.51" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="0.69" y1="37.985" x2="0.69" y2="44.56" width="0.0254" layer="52"/>
 <wire x1="-3.51" y1="37.49" x2="2.1" y2="29.22" width="0.0254" layer="52"/>
 <wire x1="0.69" y1="37.49" x2="6.3" y2="29.22" width="0.0254" layer="52"/>
 <wire x1="-3.51" y1="37.49" x2="-3.51" y2="38.215" width="0.0254" layer="52"/>
 <wire x1="0.69" y1="37.49" x2="0.69" y2="38.215" width="0.0254" layer="52"/>
-<wire x1="0.69" y1="38.215" x2="-3.51" y2="38.215" width="0.0254" layer="52"/>
-<wire x1="-3.51" y1="38.215" x2="0.69" y2="38.215" width="0.0254" layer="51"/>
-<wire x1="-7.47" y1="27.65" x2="-3.48" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="3.49" y1="27.65" x2="7.47" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="1.39" y1="27.65" x2="5.37" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-0.71" y1="27.65" x2="3.27" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-2.81" y1="27.65" x2="1.17" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="-4.91" y1="27.65" x2="-0.93" y2="31.64" width="0.0254" layer="51"/>
-<wire x1="5.49" y1="27.65" x2="7.47" y2="29.64" width="0.0254" layer="51"/>
-<wire x1="-7.47" y1="29.65" x2="-5.49" y2="31.64" width="0.0254" layer="51"/>
-<polygon width="0.0254" layer="51" pour="hatch">
-<vertex x="4.5" y="22.548"/>
-<vertex x="-4.5" y="22.548"/>
-<vertex x="-4.5" y="-22.548"/>
-<vertex x="4.5" y="-22.548"/>
+<wire x1="-7.47" y1="48.55" x2="-3.48" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="3.49" y1="48.55" x2="7.47" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="1.39" y1="48.55" x2="5.37" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-0.71" y1="48.55" x2="3.27" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-2.81" y1="48.55" x2="1.17" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="-4.91" y1="48.55" x2="-0.93" y2="44.56" width="0.0254" layer="52"/>
+<wire x1="5.49" y1="48.55" x2="7.47" y2="46.56" width="0.0254" layer="52"/>
+<wire x1="-7.47" y1="46.55" x2="-5.49" y2="44.56" width="0.0254" layer="52"/>
+<polygon width="0.0254" layer="52" pour="hatch">
+<vertex x="4.5" y="53.652"/>
+<vertex x="-4.5" y="53.652"/>
+<vertex x="-4.5" y="98.748"/>
+<vertex x="4.5" y="98.748"/>
 </polygon>
-<text x="0" y="0" size="1.27" layer="51" rot="R90" align="center">Display Area</text>
+<text x="0" y="76.2" size="1.27" layer="52" rot="MR270" align="center">Display Area</text>
 <smd name="13" x="2.4" y="-11.795" dx="0.23" dy="1" layer="16"/>
 <smd name="12" x="2.7" y="-14.955" dx="0.23" dy="1" layer="16"/>
 <smd name="11" x="3" y="-11.795" dx="0.23" dy="1" layer="16"/>
