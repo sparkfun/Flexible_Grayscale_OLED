@@ -21484,62 +21484,6 @@ Alternate pin configuration
 <text x="-0.381" y="1.016" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-0.381" y="-1.651" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
-<package name="PAD.02X.02">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
-</package>
-<package name="PAD.03X.03">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.05">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.04">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="TP_15TH">
-<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area:0.015"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CONN_06">
@@ -21562,13 +21506,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <pin name="4" x="5.08" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="5" x="5.08" y="5.08" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="6" x="5.08" y="7.62" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="TEST-POINT">
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
-<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -21901,60 +21838,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 </device>
 </devices>
 </deviceset>
-<deviceset name="TEST-POINT" prefix="TP">
-<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
-&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2" package="PAD.02X.02">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3" package="PAD.03X.03">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X5" package="PAD.03X.05">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X4" package="PAD.03X.04">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TP_15TH_THRU" package="TP_15TH">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="SparkFun-Hardware">
@@ -22122,29 +22005,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </polygon>
 <text x="0" y="76.2" size="1.27" layer="52" rot="MR270" align="center">Display Area</text>
 <smd name="13" x="2.4" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<smd name="12" x="2.7" y="-14.955" dx="0.23" dy="1" layer="16"/>
+<smd name="12" x="2.7" y="-14.555" dx="0.23" dy="1" layer="16"/>
 <smd name="11" x="3" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<smd name="10" x="3.3" y="-14.955" dx="0.23" dy="1" layer="16"/>
+<smd name="10" x="3.3" y="-14.555" dx="0.23" dy="1" layer="16"/>
 <smd name="9" x="3.6" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<smd name="8" x="3.9" y="-14.955" dx="0.23" dy="1" layer="16"/>
+<smd name="8" x="3.9" y="-14.555" dx="0.23" dy="1" layer="16"/>
 <smd name="7" x="4.2" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<smd name="6" x="4.5" y="-14.955" dx="0.23" dy="1" layer="16"/>
+<smd name="6" x="4.5" y="-14.555" dx="0.23" dy="1" layer="16"/>
 <smd name="5" x="4.8" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<smd name="4" x="5.1" y="-14.955" dx="0.23" dy="1" layer="16"/>
+<smd name="4" x="5.1" y="-14.555" dx="0.23" dy="1" layer="16"/>
 <smd name="3" x="5.4" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<smd name="2" x="5.7" y="-14.955" dx="0.23" dy="1" layer="16"/>
+<smd name="2" x="5.7" y="-14.555" dx="0.23" dy="1" layer="16"/>
 <smd name="1" x="6" y="-11.795" dx="0.23" dy="1" layer="16"/>
-<wire x1="1.5" y1="-11.875" x2="1.5" y2="-14.825" width="0.002540625" layer="52"/>
-<wire x1="1.5" y1="-14.825" x2="6.9" y2="-14.825" width="0.002540625" layer="52"/>
-<wire x1="6.9" y1="-14.825" x2="6.9" y2="-11.875" width="0.002540625" layer="52"/>
+<wire x1="1.5" y1="-11.875" x2="1.5" y2="-14.425" width="0.002540625" layer="52"/>
+<wire x1="1.5" y1="-14.425" x2="6.9" y2="-14.425" width="0.002540625" layer="52"/>
+<wire x1="6.9" y1="-14.425" x2="6.9" y2="-11.875" width="0.002540625" layer="52"/>
 <wire x1="6.9" y1="-11.875" x2="6.3" y2="-11.875" width="0.002540625" layer="52"/>
 <rectangle x1="2.35" y1="-12.215" x2="2.45" y2="-11.815" layer="52"/>
-<rectangle x1="2.65" y1="-14.885" x2="2.75" y2="-14.585" layer="52"/>
-<rectangle x1="3.25" y1="-14.885" x2="3.35" y2="-14.585" layer="52"/>
-<rectangle x1="3.85" y1="-14.885" x2="3.95" y2="-14.585" layer="52"/>
-<rectangle x1="4.45" y1="-14.885" x2="4.55" y2="-14.585" layer="52"/>
-<rectangle x1="5.05" y1="-14.885" x2="5.15" y2="-14.585" layer="52"/>
-<rectangle x1="5.65" y1="-14.885" x2="5.75" y2="-14.585" layer="52"/>
+<rectangle x1="2.65" y1="-14.485" x2="2.75" y2="-14.185" layer="52"/>
+<rectangle x1="3.25" y1="-14.485" x2="3.35" y2="-14.185" layer="52"/>
+<rectangle x1="3.85" y1="-14.485" x2="3.95" y2="-14.185" layer="52"/>
+<rectangle x1="4.45" y1="-14.485" x2="4.55" y2="-14.185" layer="52"/>
+<rectangle x1="5.05" y1="-14.485" x2="5.15" y2="-14.185" layer="52"/>
+<rectangle x1="5.65" y1="-14.485" x2="5.75" y2="-14.185" layer="52"/>
 <rectangle x1="2.95" y1="-12.215" x2="3.05" y2="-11.815" layer="52"/>
 <rectangle x1="3.55" y1="-12.215" x2="3.65" y2="-11.815" layer="52"/>
 <rectangle x1="4.15" y1="-12.215" x2="4.25" y2="-11.815" layer="52"/>
@@ -22155,10 +22038,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.1" y1="-11.875" x2="1.5" y2="-11.875" width="0.002540625" layer="52"/>
 <wire x1="2.1" y1="-13.225" x2="6.3" y2="-13.225" width="0.002540625" layer="52"/>
 <text x="4.2" y="-12.95" size="0.254" layer="52" font="vector" rot="MR180" align="center">FPC Depth</text>
-<wire x1="1.3" y1="-11.675" x2="1.3" y2="-15.025" width="0.2032" layer="22"/>
-<wire x1="7.1" y1="-15.025" x2="7.1" y2="-11.675" width="0.2032" layer="22"/>
-<wire x1="1.3" y1="-15.025" x2="2.4" y2="-15.025" width="0.2032" layer="22"/>
-<wire x1="6" y1="-15.025" x2="7.1" y2="-15.025" width="0.2032" layer="22"/>
+<wire x1="1.3" y1="-11.675" x2="1.3" y2="-14.625" width="0.2032" layer="22"/>
+<wire x1="7.1" y1="-14.625" x2="7.1" y2="-11.675" width="0.2032" layer="22"/>
+<wire x1="1.3" y1="-14.625" x2="2.4" y2="-14.625" width="0.2032" layer="22"/>
+<wire x1="6" y1="-14.625" x2="7.1" y2="-14.625" width="0.2032" layer="22"/>
 <wire x1="2.1" y1="-11.675" x2="1.3" y2="-11.675" width="0.2032" layer="22"/>
 <wire x1="7.1" y1="-11.675" x2="6.3" y2="-11.675" width="0.2032" layer="22"/>
 <wire x1="2.1" y1="-13.225" x2="2.1" y2="-11.875" width="0.002540625" layer="52"/>
@@ -22428,7 +22311,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="LCD-13910" constant="no"/>
+<attribute name="PROD_ID" value="LCD-13910, CONN-13933" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -22805,6 +22688,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
+<device name="-CDRH-10UH" package="INDUCTOR_4.7UH">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-09819" constant="no"/>
+<attribute name="VALUE" value="10uH" constant="no"/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 </devicesets>
@@ -22826,7 +22721,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R1" library="SparkFun-Resistors" deviceset="47KOHM" device="-0603-1/10W-1%" value="47k"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="5.6KOHM" device="-0603-1/10W-1%" value="5.6k"/>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-BAT20J" value="1A/23V/620mV"/>
-<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="INDUCTOR_10UH" value="10uH"/>
+<part name="L1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-CDRH-10UH" value="10uH"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="VIN" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -22878,7 +22773,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 <part name="LOGO4" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
-<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2"/>
 </parts>
 <sheets>
 <sheet>
@@ -22976,7 +22870,6 @@ High limit: TXB0104)</text>
 <instance part="FD4" gate="G$1" x="236.22" y="30.48"/>
 <instance part="LOGO3" gate="G$1" x="40.132" y="30.48"/>
 <instance part="LOGO4" gate="G$1" x="35.56" y="12.7"/>
-<instance part="TP1" gate="G$1" x="220.98" y="160.02"/>
 </instances>
 <busses>
 </busses>
@@ -23159,14 +23052,10 @@ High limit: TXB0104)</text>
 <junction x="205.74" y="167.64"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="167.64" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="167.64" x2="215.9" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="12V"/>
-<wire x1="215.9" y1="160.02" x2="215.9" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="167.64" x2="215.9" y2="170.18" width="0.1524" layer="91"/>
 <junction x="215.9" y="167.64"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-<wire x1="220.98" y1="160.02" x2="215.9" y2="160.02" width="0.1524" layer="91"/>
-<junction x="215.9" y="160.02"/>
 </segment>
 <segment>
 <pinref part="SUPPLY4" gate="G$1" pin="12V"/>
