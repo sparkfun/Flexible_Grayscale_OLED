@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="4.3" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -2123,7 +2123,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="L1" library="SparkFun-Coils" package="INDUCTOR_4.7UH" value="10uH" x="7.62" y="29.21" smashed="yes">
 <attribute name="NAME" x="7.62" y="31.11" size="0.6096" layer="25" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="7.62" y="31.75" size="0.6096" layer="27" ratio="20" align="top-center"/>
-<attribute name="PROD_ID" value="NDUC-09819" x="7.62" y="29.21" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="NDUC-13968" x="7.62" y="29.21" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="SparkFun-Capacitors" package="0603" value="0.1uF" x="9.525" y="19.05" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="CAP-00810" x="9.525" y="19.05" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>

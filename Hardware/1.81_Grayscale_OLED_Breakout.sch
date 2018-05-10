@@ -22647,6 +22647,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-2.54" y="1.905" size="0.8128" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.175" size="0.8128" layer="27">&gt;VALUE</text>
 </package>
+<package name="XFL4020">
+<smd name="P$1" x="1" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
+<smd name="P$2" x="3.4" y="1.8" dx="3.4" dy="0.98" layer="1" rot="R90"/>
+<wire x1="0" y1="-0.4" x2="0" y2="4" width="0.1524" layer="51"/>
+<wire x1="0" y1="4" x2="4.4" y2="4" width="0.1524" layer="51"/>
+<wire x1="4.4" y1="4" x2="4.4" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="4.4" y1="-0.4" x2="0" y2="-0.4" width="0.1524" layer="51"/>
+<wire x1="0.1" y1="3.9" x2="4.3" y2="3.9" width="0.1524" layer="21"/>
+<text x="-1.8" y="4.6" size="1.778" layer="25">&gt;NAME</text>
+<text x="-2.2" y="-2.7" size="1.778" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="INDUCTOR">
@@ -22663,7 +22674,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="INDUCTOR" prefix="L">
+<deviceset name="INDUCTOR" prefix="L" uservalue="yes">
 <description>&lt;h3&gt;Inductors&lt;/h3&gt;
 &lt;p&gt;Resist changes in electrical current. Basically a coil of wire.&lt;/p&gt;
 &lt;p&gt;SparkFun Products:
@@ -22814,9 +22825,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="NDUC-09819" constant="no"/>
+<attribute name="PROD_ID" value="NDUC-13968" constant="no"/>
 <attribute name="VALUE" value="10uH" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="FB-30OHM" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="NDUC-07859"/>
+</technology>
+</technologies>
+</device>
+<device name="" package="XFL4020">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
