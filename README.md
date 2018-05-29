@@ -1,9 +1,9 @@
 SparkFun Carrier Board for Flexible Grayscale OLED Display
 ========================================
 
-![SparkFun Flexible Grayscale Carrier Board](https://cdn.sparkfun.com//assets/parts/1/2/6/6/6/Flexible-Grayscale-OLED-1.jpg)
+![SparkFun Flexible Grayscale Carrier Board](https://cdn.sparkfun.com/r/500-500/assets/parts/1/2/7/7/2/14606-SparkFun_Flexible_Grayscale_OLED_Breakout_-_1.81in.__Qwiic_-01.jpg)
 
-[*SparkFun Flexible Grayscale Display - 1.81" (SPX-14543)*](https://www.sparkfun.com/products/14543)
+[*SparkFun Flexible Grayscale Display - 1.81" (LCD-14606)*](https://www.sparkfun.com/products/14606)
 
 This is a small flexible, grayscale OLED display. That’s right, we said flexible. We’ve been hearing about flexible displays for years, it’s finally here! You can’t fold it like paper but this OLED from Wisechip can be bent to a 40mm radius without damage. The display is than 0.5mm thick, less than 0.5 grams, and can display some impressive graphics with great contrast.
 
@@ -12,7 +12,9 @@ The carrier board generates the 12V required to drive the OLED display. The carr
 Repository Contents
 -------------------
 
+* **/Datasheets** - Datasheets explaining screen characteristics
 * **/Hardware** - Eagle design files (.brd, .sch)
+* **/Production** - Test bed files and production panel files.
 
 Library
 --------------

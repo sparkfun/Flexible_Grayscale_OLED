@@ -1,1 +1,0 @@
-Please download the Arduino library using the library manager for lots of easy to use examples: https://github.com/sparkfun/SparkFun_SSD1320_OLED_Arduino_Library
