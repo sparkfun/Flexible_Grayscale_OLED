@@ -1,4 +1,4 @@
-SparkFun Carrier Board for Flexible Grayscale OLED Display
+SparkFun Flexible Grayscale OLED Display Breakout Board
 ========================================
 
 ![SparkFun Flexible Grayscale Carrier Board](https://cdn.sparkfun.com/r/500-500/assets/parts/1/2/7/7/2/14606-SparkFun_Flexible_Grayscale_OLED_Breakout_-_1.81in.__Qwiic_-01.jpg)
@@ -16,9 +16,11 @@ Repository Contents
 * **/Hardware** - Eagle design files (.brd, .sch)
 * **/Production** - Test bed files and production panel files.
 
-Library
+Documentation
 --------------
-* **[Arduino Library](https://github.com/sparkfun/SparkFun_SSD1320_OLED_Arduino_Library)** - Library for drawing, graphics, text, etc.
+* **[Arduino Library](https://github.com/sparkfun/SparkFun_SSD1320_OLED_Arduino_Library)** - Arduino library for drawing, graphics, text, etc.
+* **[BMP to Array](https://github.com/sparkfun/BMPtoArray)** - Python script to convert bitmaps to an Arduino prog_mem array when outputting grayscale images to OLEDs.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/flexible-grayscale-oled-hookup-guide)** - Basic hookup guide for the SparkFun Flexible Grayscale OLED Display.
 
 License Information
 -------------------
